@@ -1,0 +1,262 @@
+/* 设置版心，把所有内容框在这个中间，方便用户查看主要内容 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.text-red{
+    color: #c81623!important;
+}
+.mr10{
+    margin-right: 10px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* shortcut开始 */
+.shortcut{
+    height: 30px;
+    background: #f1f1f1;
+}
+.shortcut .left{
+    line-height: 30px;
+}
+.shortcut .right li{
+    float: left;
+    border-right: 1px solid #666;
+    padding-right: 10px;
+    margin-right: 10px;
+    line-height: 12px;
+    margin-top: 9px;
+}
+.shortcut .right li:last-child{
+    border-right: 0;
+}
+.shortcut .right li .icon-xiajiantou_huaban{
+    font-size: 12px;
+    margin-left: 5px;
+}
+/* header开始 */
+.header{
+    height: 105px;
+}
+.header .w{
+    overflow: hidden;
+}
+.header .logo {
+    display: block;
+    width: 171px;
+    height: 64px;
+    background: url(../images/logo.png) no-repeat;
+    margin-top: 27px;
+}
+.header .logo {
+    font-size: 0;
+    float: left;
+}
+.header .search{
+    float: left;
+    width: 540px;
+    height: 65px;
+    margin-top: 27px;
+    margin-left: 130px;
+}
+.header .search-box{
+    border: 2px solid #b1191a;
+}
+.header .search-box input{
+    float: left;
+    width: 455px;
+    height: 33px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.header .search-box .search-btn{
+    float: left;
+    width: 81px;
+    height: 33px;
+    background: #b1191a;
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+}
+.header .hot li{
+    float: left;
+    margin: 7px 11px;
+    color: #666;
+}
+.header .shopcar{
+    position: relative;
+    float: right;
+    margin-top: 27px;
+    margin-right: 64px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    color: #666;
+    background: #f7f7f7;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+.header .shopcar .iconfont{
+    vertical-align: top;
+    font-size: 12px;
+}
+.header .shopcar .icon-gouwucheman{
+    margin-right: 5px;
+}
+.header .shopcar .icon-jiantouarrow487{
+    margin-left: 12px;
+}
+.header .shopcar .abs-number{
+    position: absolute;
+    right: 25px;
+    top: -10px;
+    width: 17px;
+    height: 14px;
+    line-height: 14px;
+    color: white;
+    background: #b1191a;
+    border-radius: 50% 50% 50% 0;
+}
+/* nav开始 */
+.nav{
+    border-bottom: 2px solid #b21a1c;
+}
+.nav .dropdown{
+    float: left;
+    width: 208px;
+    height: 45px;
+    background: rgb(104, 45, 45);
+    /* overflow: hidden; */
+}
+.nav .dropdown .dt{
+    background: #b11a1a;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.nav .dropdown .dd{
+    background: #c81822;
+    width: 100%;
+}
+.nav .dropdown .dd li{
+    position: relative;
+    padding: 0 10px;
+    line-height: 30px;
+    margin-left: 2px;
+    color: white;
+}
+.nav .dropdown .dd li:last-child{
+    line-height: 37px;
+}
+.nav .dropdown .dd li:hover{
+    background: white;
+    color: #c81822;
+}
+.nav .dropdown .dd li:hover a{
+    color: #c81822;
+}
+.nav .dropdown .dd li:hover::before{
+    color: white;
+}
+.nav .dropdown .dd li::before{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.nav .dropdown .dd li a{
+    font-size: 14px;
+    color: white;
+}
+.nav .navitems{
+    float: left;
+    margin-left: 15px;
+}
+.nav .navitems li{
+    float: left;
+}
+.nav .navitems li a{
+    display: block;
+    line-height: 45px;
+    padding: 0 25px;
+    color: #333;
+    font-size: 16px;
+}
+/* footer开始 */
+.footer{
+    background: #f5f5f5;
+}
+.footer .mod_service{
+    padding: 30px;
+    border-bottom: 1px solid #ededed;
+}
+.footer .mod_service li{
+    float: left;
+    width: 228px;
+}
+.footer .mod_service .img{
+    float: left;
+    width: 52px;
+    height: 51px;
+    background: url(../images/icons.png) no-repeat -251px -2px;
+    margin-right: 5px;
+}
+.footer .mod_service li:nth-child(2) .img{
+    background-position: -256px -53px;
+}
+.footer .mod_service li:nth-child(3) .img{
+    background-position: -256px -105px;
+}
+.footer .mod_service li:nth-child(4) .img{
+    background-position: -256px -156px;
+}
+.footer .mod_service li:nth-child(5) .img{
+    background-position: -256px -207px;
+}
+.footer .mod_service .service-info{
+    float: left;
+}
+.footer .mod_service .service-info h4{
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+.footer .mod_service .service-info p{
+    font-size: 12px;
+    color: #666;
+}
+.footer .mod_help{
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 35px;
+}
+.footer .mod_help dl{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.footer .mod_help dt{
+    font-size: 16px;
+    color: #333;
+}
+.footer .mod_help dd{
+    font-size: 12px;
+    color: #666;
+}
+.footer .mod_copyright{
+    text-align: center;
+    padding: 15px 0 40px;
+}
+.footer .mod_copyright a{
+    margin: 0 8px 0 5px;
+    line-height: 30px;
+}
