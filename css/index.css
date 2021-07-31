@@ -75,3 +75,130 @@
     text-align: center;
     margin-bottom: 7px;
 }
+/* recommended开始 */
+.recommended {
+    height: 163px;
+    background-color: aqua;
+}
+.recommended li{
+    position: relative;
+    float: left;
+    height: 100%;
+}
+
+.recommended li::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    display: block;
+    width: 1px;
+    height: 143px;
+    background-color: #ddd;
+}
+.recommended li img{
+    vertical-align: middle;
+}
+.recommended .first{
+    width: 208px;
+    line-height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recommended .first::after,.recommended li:last-child::after{
+    height: 0;
+    /* opacity: 0; */
+    /* display: none; */
+}
+/* floor开始 */
+.floor{
+    height: 390px;
+    margin-top: 30px;
+}
+.floor .title{
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.floor .title h4{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.floor .title .hot{
+    float: right;
+}
+.floor .title .hot li{
+    float: left;
+}
+.floor .title .hot a{
+    font-size: 12px;
+    color: #666;
+}
+.floor .title .hot li::after{
+    content: '|';
+    margin: 0 10px;
+}
+.floor .title .hot li:last-child::after{
+    content: '';
+    margin: 0;
+}
+.floor .list{
+    
+}
+.floor .list>li{
+    float: left;
+    width: 220px;
+    height: 360px;
+}
+.floor .list .f210{
+    width: 210px;
+    background: #f9f9f9;
+}
+.floor .list .f330{
+    position: relative;
+    width: 330px;
+}
+.floor .energy-saving li{
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+}
+.floor .energy-saving{
+    padding: 0 10px;
+}
+.floor .energy-saving li a{
+    display: block;
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.floor .list .f210-img{
+    display: block;
+    text-align: center;
+}
+.floor .list>li:nth-child(n+3) img{
+    width: 219px;
+    display: block;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+/* 小圆点 */
+.floor .list .img-focus{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+.floor .list .img-focus li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 3px;
+}
+.floor .list .img-focus .active{
+    background: rgba(255, 255, 255, 0.9);
+}
